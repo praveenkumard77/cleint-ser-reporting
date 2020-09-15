@@ -1,0 +1,4 @@
+[client]
+34.201.68.181 ansible_ssh_user=root ansible_port=22
+[server]
+35.153.231.46 ansible_ssh_user=root ansible_port=22
