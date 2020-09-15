@@ -12,6 +12,12 @@ Spinup 2 EC2 instances with python installed for ansible communication
 
 The repo has an Ansible inventory file which is located in ansible/hosts add the client and server IP/hostname there.
 
+# Go to ansible folder Run the command
+
+ansible-playbook -i hosts ssh-reporting.yml
+
+it will automate the configuration of servers
+
 Update Reporter.py and Cleint.py with server's IP/hostname The server store data in a mysql. The Reporter.py access the data directly from mysql therefore line number 10 need to be updated.
 
 # db_host = 'ip-address-of-server'
