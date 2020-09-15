@@ -18,7 +18,10 @@
         - python-dev 
         - libmysqlclient-dev
         - python-pip
-    
+    - name: Replacing my.cnf with local copy
+      copy: 
+        src: files/my.cnf
+        dest: /etc/mysql/my.cnf
 
     - name: Setting perms
       file: 
