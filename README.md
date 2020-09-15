@@ -25,11 +25,13 @@ The client sends data directly to server's port 8888. This port should not be us
 The logs go to:
 
 Client.py >> /var/log/ListenClient.log
+
 Server.py >> /var/log/ListenServer.log 
 
 There is a lockfile in /tmp/mydaemon.pid for Client.py. If you are killing process forcefully make sure you remove this file.
 
-How to get report
+# How to get report
+
 login to the client server and enter command
 
 Reporter.py
