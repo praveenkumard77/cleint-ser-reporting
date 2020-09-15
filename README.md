@@ -13,10 +13,12 @@ Spinup 2 EC2 instances with python installed for ansible communication
 The repo has an Ansible inventory file which is located in ansible/hosts add the client and server IP/hostname there.
 
 Update Reporter.py and Cleint.py with server's IP/hostname The server store data in a mysql. The Reporter.py access the data directly from mysql therefore line number 10 need to be updated.
-db_host = 'ip-address-of-server'
+
+# db_host = 'ip-address-of-server'
+
 The client require ip/hostname of server to send data to. Therefore you need to update line 8 on Client.py
 
-server = "ip-address-of-server"
+# server = "ip-address-of-server"
 
 The client sends data directly to server's port 8888. This port should not be used by any other process.
 
