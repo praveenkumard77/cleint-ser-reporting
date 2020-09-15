@@ -14,7 +14,7 @@ The repo has an Ansible inventory file which is located in ansible/hosts add the
 
 # Go to ansible folder Run the command
 
-ansible-playbook -i hosts ssh-reporting.yml
+ #ansible-playbook -i hosts ssh-reporting.yml
 
 it will automate the configuration of servers
 
